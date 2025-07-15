@@ -1,9 +1,10 @@
+import Navigation from "./components/Navigation/Navigation";
+import "./App.scss";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          Learn React
-      </header>
+      <Navigation />
     </div>
   );
 }
