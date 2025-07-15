@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/khajzner.github.io/static/js/main.6c6e9846.js",
-    "index.html": "/khajzner.github.io/index.html",
-    "main.6c6e9846.js.map": "/khajzner.github.io/static/js/main.6c6e9846.js.map"
+    "main.js": "/static/js/main.6c6e9846.js",
+    "index.html": "/index.html",
+    "main.6c6e9846.js.map": "/static/js/main.6c6e9846.js.map"
   },
   "entrypoints": [
     "static/js/main.6c6e9846.js"
