@@ -5,8 +5,34 @@
   margin-right: 16px;
   display: inline;
   font-size: larger;
+
   a {
-    text-decoration: none;
     color: #b4345b;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+      color: #861c3c;
+      transform: rotate((random(20)-10) + deg) scale(1.1, 1.1);
+      transition: transform 0.1s;
+    }
+
+    &::before {
+      background-color: #861c3c;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 1px;
+      left: 0;
+      position: absolute;
+      transform: scaleX(0);
+      transform-origin: top left;
+      transition: transform 0.4s ease;
+      width: 100%;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+    }
   }
 }
