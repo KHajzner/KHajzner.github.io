@@ -1,8 +1,11 @@
 .navigation {
-  text-align: right;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 .navLink {
-  margin-right: 16px;
+  margin: 0 8px;
   display: inline;
   font-size: larger;
 

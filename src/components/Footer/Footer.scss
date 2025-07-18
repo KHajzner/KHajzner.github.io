@@ -1,0 +1,26 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 18px;
+  height: 40px;
+  text-align: center;
+
+  .copyright {
+    margin-top: 8px;
+    font-size: medium;
+  }
+
+  a {
+    color: #b4345b;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: larger;
+    text-decoration: none;
+
+    &:hover {
+      color: #861c3c;
+      transition: 0.5s;
+    }
+  }
+}
