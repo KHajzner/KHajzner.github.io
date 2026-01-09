@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import Home from './Home/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <p>Kalina's Corner</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
