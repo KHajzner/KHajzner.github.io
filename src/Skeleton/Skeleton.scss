@@ -175,8 +175,8 @@ svg {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8px;
-  padding: 8px 0;
+  gap: 5px;
+  padding: 5px 0;
   background-color: #f9c22b;
   border-top: 5px solid #ae2334;
   border-bottom: 5px solid #ae2334;
@@ -222,11 +222,115 @@ svg {
   .pixel-corners:hover {
     transition: color 0.2s, background-color 0.2s;
     background-color: #6e2727;
-    color: #e6904e;
+    color: #ffcd45c4;
   }
 }
 
 #banner {
   height: 240px;
   background-image: linear-gradient(#ee7d319b, #f9c22b, #ee7d319b);
+}
+
+#gr_challenge_11680 {
+  margin: 10px auto;
+
+  padding: 10px 8px;
+  max-width: 280px;
+  text-shadow: none;
+  background-color: #6e2727;
+  clip-path: polygon(
+    0px calc(100% - 16px),
+    4px calc(100% - 16px),
+    4px calc(100% - 8px),
+    8px calc(100% - 8px),
+    8px calc(100% - 4px),
+    16px calc(100% - 4px),
+    16px 100%,
+    calc(100% - 16px) 100%,
+    calc(100% - 16px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 16px),
+    100% calc(100% - 16px),
+    100% 16px,
+    calc(100% - 4px) 16px,
+    calc(100% - 4px) 8px,
+    calc(100% - 8px) 8px,
+    calc(100% - 8px) 4px,
+    calc(100% - 16px) 4px,
+    calc(100% - 16px) 0px,
+    16px 0px,
+    16px 4px,
+    8px 4px,
+    8px 8px,
+    4px 8px,
+    4px 16px,
+    0px 16px
+  );
+}
+
+#gr_challenge_progress_body_11680 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+#challange_heading {
+  margin: 0 0 4px;
+  font-weight: normal;
+  text-align: center;
+  a {
+    color: #ffcd45;
+  }
+  a:hover {
+    color: #ffcd45c4;
+  }
+}
+
+#challange_body {
+  font-family: text-pixel;
+  font-size: 15px;
+  margin-bottom: 4px;
+  a {
+    color: #ffcd45;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffcd45c4;
+  }
+}
+#heading_link {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.challengePic {
+  float: left;
+  margin-right: 10px;
+  border: 0 none;
+  width: 75px;
+  height: 75px;
+}
+
+#div_1 {
+  width: 100px;
+  margin: 4px 5px 5px 0;
+  float: left;
+  height: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#div_2 {
+  width: 8%;
+  background-color: #ae2334;
+  float: left;
+}
+#div_3 {
+  visibility: hidden;
+}
+
+#progress {
+  font-size: 90%;
 }

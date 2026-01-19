@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
-import { EnvelopeIcon, LinkedInIcon, GitHubIcon } from "../static/icons";
+import {
+  EnvelopeIcon,
+  LinkedInIcon,
+  GitHubIcon,
+  BookIcon,
+} from "../static/icons";
 import "./Skeleton.scss";
 
 const Socials = () => {
@@ -12,6 +17,45 @@ const Socials = () => {
   );
 };
 
+const ReadingChallange = () => {
+  return (
+    <div id="gr_challenge_11680">
+      <div id="gr_challenge_progress_body_11680">
+        <h3 id="challange_heading">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.goodreads.com/challenges/11680-2026-reading-challenge"
+            id="heading_link"
+          >
+            2026 Reading Challenge
+          </a>
+        </h3>
+        <div className="challengePic">
+          <BookIcon />
+        </div>
+        <div id="challange_body">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.goodreads.com/user/show/161710093-kalina"
+          >
+            Kalina
+          </a>{" "}
+          has read 1 book toward their goal of 12 books.
+        </div>
+        <div id="div_1">
+          <div id="div_2">
+            <span id="div_3">hide</span>
+          </div>
+        </div>
+        <div id="progress">1 of 12 (8%)</div>
+      </div>
+      <script src="https://www.goodreads.com/user_challenges/widget/161710093-kalina?challenge_id=11680&v=2"></script>
+    </div>
+  );
+};
+
 const Skeleton = ({ children }: { children: any }) => {
   return (
     <div className="frame">
@@ -20,6 +64,7 @@ const Skeleton = ({ children }: { children: any }) => {
           <img id="avatar" src={require("../static/avatar.png")} alt="avatar" />
           <h2 className="welcome">Kalina's Corner</h2>
           <Socials />
+          <ReadingChallange />
         </div>
       </div>
       <div className="mainContent">
