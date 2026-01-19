@@ -30,7 +30,7 @@ const Skeleton = ({ children }: { children: any }) => {
           <Link to="/projects">
             <button className="pixel-corners">PROJECTS</button>
           </Link>
-          <Link to="/photo">
+          <Link to="/photography">
             <button className="pixel-corners">PHOTOGRAPHY</button>
           </Link>
           <Link to="/library">

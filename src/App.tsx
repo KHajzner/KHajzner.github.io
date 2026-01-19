@@ -1,15 +1,26 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
-import Home from './Home/Home';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./Home/Home";
+import Projects from "./Projects/Projects";
+import Photography from "./Photography/Photography";
+import Library from "./Library/Library";
+import Backlog from "./Backlog/Backlog";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+
+        <Route path="/photography" element={<Photography />} />
+
+        <Route path="/library" element={<Library />} />
+
+        <Route path="/backlog" element={<Backlog />} />
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
