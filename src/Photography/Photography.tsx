@@ -3,7 +3,7 @@ import Skeleton from "../Skeleton/Skeleton";
 const Photography = () => {
   return (
     <Skeleton>
-      <p>Photography</p>
+      <p>W.I.P.: All of the pictures from my photography walks will go here</p>
     </Skeleton>
   );
 };
