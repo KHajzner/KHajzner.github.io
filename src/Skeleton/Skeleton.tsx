@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { EnvelopeIcon, LinkedInIcon, GitHubIcon } from "../static/icons";
 import "./Skeleton.scss";
+
 const Socials = () => {
   return (
     <div className="socials">

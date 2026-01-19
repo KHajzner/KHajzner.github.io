@@ -3,6 +3,11 @@
   src: url(./static/Arcade.ttf);
   font-weight: bolder;
 }
+@font-face {
+  font-family: text-pixel;
+  src: url(./static/text_pixel.ttf);
+  font-weight: bolder;
+}
 
 html,
 body {
