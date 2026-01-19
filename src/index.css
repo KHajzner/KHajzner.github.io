@@ -4,15 +4,26 @@
   font-weight: bolder;
 }
 
+html,
 body {
   margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  background-color: rgb(27, 3, 3);
   font-family: pixel;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background-image: radial-gradient(rgb(131, 51, 51), rgb(27, 3, 3));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -1,79 +1,224 @@
-.frame{
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    background-color: #e6904e;
-    display: flex;
+.frame {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f9c22b;
+  display: flex;
+  margin-top: 150px;
+  height: 1200px;
+  clip-path: polygon(
+    0px calc(100% - 40px),
+    8px calc(100% - 40px),
+    8px calc(100% - 24px),
+    16px calc(100% - 24px),
+    16px calc(100% - 16px),
+    24px calc(100% - 16px),
+    24px calc(100% - 8px),
+    40px calc(100% - 8px),
+    40px 100%,
+    calc(100% - 40px) 100%,
+    calc(100% - 40px) calc(100% - 8px),
+    calc(100% - 24px) calc(100% - 8px),
+    calc(100% - 24px) calc(100% - 16px),
+    calc(100% - 16px) calc(100% - 16px),
+    calc(100% - 16px) calc(100% - 24px),
+    calc(100% - 8px) calc(100% - 24px),
+    calc(100% - 8px) calc(100% - 40px),
+    100% calc(100% - 40px),
+    100% 40px,
+    calc(100% - 8px) 40px,
+    calc(100% - 8px) 24px,
+    calc(100% - 16px) 24px,
+    calc(100% - 16px) 16px,
+    calc(100% - 24px) 16px,
+    calc(100% - 24px) 8px,
+    calc(100% - 40px) 8px,
+    calc(100% - 40px) 0px,
+    40px 0px,
+    40px 8px,
+    24px 8px,
+    24px 16px,
+    16px 16px,
+    16px 24px,
+    8px 24px,
+    8px 40px,
+    0px 40px
+  );
 }
-.sideNav{
-    flex: 35%;
-    font-size: 30px;
-    color: white;
-    text-shadow: 3px 3px #6e2727;
+.sideNav {
+  flex: 35%;
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px #6e2727;
 }
 
-#avatar{
-        border: 4px solid #ae2334;
+#avatar {
+  //   border: 4px solid #ae2334;
+  height: 30%;
+  margin: 20px 0;
+  clip-path: polygon(
+    0px calc(100% - 16px),
+    4px calc(100% - 16px),
+    4px calc(100% - 8px),
+    8px calc(100% - 8px),
+    8px calc(100% - 4px),
+    16px calc(100% - 4px),
+    16px 100%,
+    calc(100% - 16px) 100%,
+    calc(100% - 16px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 16px),
+    100% calc(100% - 16px),
+    100% 16px,
+    calc(100% - 4px) 16px,
+    calc(100% - 4px) 8px,
+    calc(100% - 8px) 8px,
+    calc(100% - 8px) 4px,
+    calc(100% - 16px) 4px,
+    calc(100% - 16px) 0px,
+    16px 0px,
+    16px 4px,
+    8px 4px,
+    8px 8px,
+    4px 8px,
+    4px 16px,
+    0px 16px
+  );
 }
-.mainContent{
-    margin: 0 auto;
-    width: 100%;
+.mainContent {
+  margin: 0 auto;
+  width: 100%;
+}
+.welcome {
+  margin: 0px auto 15px auto;
+  background-color: #6e2727;
+  width: 90%;
+  clip-path: polygon(
+    0px calc(100% - 6px),
+    6px calc(100% - 6px),
+    6px 100%,
+    calc(100% - 6px) 100%,
+    calc(100% - 6px) calc(100% - 6px),
+    100% calc(100% - 6px),
+    100% 6px,
+    calc(100% - 6px) 6px,
+    calc(100% - 6px) 0px,
+    6px 0px,
+    6px 6px,
+    0px 6px
+  );
+}
+.me {
+  display: block;
+  border-right: 15px solid #ae2334;
+  height: 1200px;
+  background-image: linear-gradient(
+    #ee7d319b,
+    #f9c22b,
+    #f9c22b,
+    #f9c22b,
+    #ee7d319b
+  );
 }
 
-.navigation{
-    border: 4px solid #ae2334;
-    flex:1;
-    padding: 5px 0;
-    margin-top: 100px;
-    // width: 100%;
-    background-color:#f9c22b;
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-    a{
-        text-decoration: none;
-    }
-    
-    a:not(:last-child){
-        margin-right:5px;
-    }
+.social {
+  background-color: #ae2334;
+  padding: 10px;
+  height: 75px;
+  width: 75px;
+  clip-path: polygon(
+    0px calc(100% - 12px),
+    6px calc(100% - 12px),
+    6px calc(100% - 6px),
+    12px calc(100% - 6px),
+    12px 100%,
+    calc(100% - 12px) 100%,
+    calc(100% - 12px) calc(100% - 6px),
+    calc(100% - 6px) calc(100% - 6px),
+    calc(100% - 6px) calc(100% - 12px),
+    100% calc(100% - 12px),
+    100% 12px,
+    calc(100% - 6px) 12px,
+    calc(100% - 6px) 6px,
+    calc(100% - 12px) 6px,
+    calc(100% - 12px) 0px,
+    12px 0px,
+    12px 6px,
+    6px 6px,
+    6px 12px,
+    0px 12px
+  );
+  &:hover {
+    transition: color 0.2s, background-color 0.2s;
+    background-color: #6e2727;
+  }
+}
+svg {
+  fill: white;
+}
+.navigation {
+  flex: 1;
+  padding: 5px 0;
+  margin-top: 8px;
+  background-color: #f9c22b;
 
-    .pixel-corners {
-        all: initial;
+  a {
+    text-decoration: none;
+  }
+
+  a:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  .pixel-corners {
+    all: initial;
     * {
-        all: unset;
+      all: unset;
     }
     padding: 10px 20px;
     background-color: #ae2334;
-    color:white;
+    color: white;
     clip-path: polygon(
-        0px calc(100% - 8px),
-        4px calc(100% - 8px),
-        4px calc(100% - 4px),
-        8px calc(100% - 4px),
-        8px 100%,
-        calc(100% - 8px) 100%,
-        calc(100% - 8px) calc(100% - 4px),
-        calc(100% - 4px) calc(100% - 4px),
-        calc(100% - 4px) calc(100% - 8px),
-        100% calc(100% - 8px),
-        100% 8px,
-        calc(100% - 4px) 8px,
-        calc(100% - 4px) 4px,
-        calc(100% - 8px) 4px,
-        calc(100% - 8px) 0px,
-        8px 0px,
-        8px 4px,
-        4px 4px,
-        4px 8px,
-        0px 8px
-        );
+      0px calc(100% - 8px),
+      4px calc(100% - 8px),
+      4px calc(100% - 4px),
+      8px calc(100% - 4px),
+      8px 100%,
+      calc(100% - 8px) 100%,
+      calc(100% - 8px) calc(100% - 4px),
+      calc(100% - 4px) calc(100% - 4px),
+      calc(100% - 4px) calc(100% - 8px),
+      100% calc(100% - 8px),
+      100% 8px,
+      calc(100% - 4px) 8px,
+      calc(100% - 4px) 4px,
+      calc(100% - 8px) 4px,
+      calc(100% - 8px) 0px,
+      8px 0px,
+      8px 4px,
+      4px 4px,
+      4px 8px,
+      0px 8px
+    );
     font-family: pixel;
-    font-size: 20px;
+    font-size: 36px;
     box-shadow: 5px 5px #6e2727;
-    }
-    .pixel-corners:hover{
-         transition: color 0.20s,  background-color 0.20s;
-        background-color:  #6e2727;
-        color: #e6904e   ;
-    }
+  }
+  .pixel-corners:hover {
+    transition: color 0.2s, background-color 0.2s;
+    background-color: #6e2727;
+    color: #e6904e;
+  }
+}
 
+#banner {
+  height: 240px;
+  background-image: linear-gradient(#ee7d319b, #f9c22b, #ee7d319b);
 }
