@@ -68,8 +68,8 @@ const Skeleton = ({ children }: { children: any }) => {
         </div>
       </div>
       <div className="mainContent">
-        <div id="banner" />
-        <nav className="navigation">
+        <div id="flex1" />
+        <nav id="flex2" className="navigation">
           <Link to="/">
             <button className="pixel-corners">HOME</button>
           </Link>
@@ -86,7 +86,7 @@ const Skeleton = ({ children }: { children: any }) => {
             <button className="pixel-corners">BACKLOG</button>
           </Link>
         </nav>
-        {children}
+        <div id="flex3">{children}</div>
       </div>
     </div>
   );
