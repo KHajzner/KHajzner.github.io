@@ -68,7 +68,7 @@ const Skeleton = ({ children }: { children: any }) => {
         </div>
       </div>
       <div className="mainContent">
-        <div id="flex1" />
+        <div id="flex1" ><img src={require("../static/banner.gif")} id="banner" /></div>
         <nav id="flex2" className="navigation">
           <Link to="/">
             <button className="pixel-corners">HOME</button>
@@ -84,6 +84,9 @@ const Skeleton = ({ children }: { children: any }) => {
           </Link>
           <Link to="/backlog">
             <button className="pixel-corners">BACKLOG</button>
+          </Link>
+          <Link to="/about-me">
+            <button className="pixel-corners">ABOUT ME</button>
           </Link>
         </nav>
         <div id="flex3">{children}</div>

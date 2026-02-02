@@ -9,6 +9,12 @@
   font-weight: bolder;
 }
 
+@font-face {
+  font-family: body-pixel;
+  src: url(./static/MedodicaRegular.otf);
+  font-weight: bolder;
+}
+
 html,
 body {
   margin: 0;

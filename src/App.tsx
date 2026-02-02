@@ -5,6 +5,7 @@ import Projects from "./Projects/Projects";
 import Photography from "./Photography/Photography";
 import Library from "./Library/Library";
 import Backlog from "./Backlog/Backlog";
+import AboutMe from "./About Me/AboutMe";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/photography" element={<Photography />} />
         <Route path="/library" element={<Library />} />
         <Route path="/backlog" element={<Backlog />} />
+        <Route path="/about-me" element={<AboutMe />} />
       </Routes>
     </BrowserRouter>
   );

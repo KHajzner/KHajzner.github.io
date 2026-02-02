@@ -6,19 +6,15 @@ const Home = () => {
     <Skeleton>
       <div className="content">
         <div className="aboutme">
-          <h1>Hi, I'm Kalina!</h1>
-          <h2>
-            I'm a software engineer, mainly interested in web and game
-            development.
-            <br /> <br />
-            I graduated Newcastle University with a 1st in Computer Science!
-            <br /> <br />
-            I also like: <br />
-            ⊹ Photography (Anything that I find interesting)
-            <br />
-            ⊹ Gaming (Current favourite is Animal Well)
-            <br />⊹ Painting (Watercolours and Gouache)
-          </h2>
+          <h2 className="head">
+            Hi, I'm Kalina <span className="emoji">ヾ(•̀ ヮ &lt;)و </span></h2>
+          <h3 className="body">
+            Welcome to my little corner of the internet. Here you can find my
+            various projects related to crafts, photography, coding and more.
+            <br /><br />You can also have a snoop around my book and gaming libraries!
+            <br /><br />Hope you have a pleasant stay!
+            <br /><span className="emoji">.₊̣̇.ಇ/ᐠˬ ͜   ˬ ᐟ\∫.₊̣̇.</span>
+          </h3>
         </div>
       </div>
     </Skeleton>
