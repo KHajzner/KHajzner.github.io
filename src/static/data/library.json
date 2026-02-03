@@ -1,8 +1,30 @@
 [
   {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "cover": "./book_covers/handmaid.jpg",
+    "rating": 0,
+    "progress": 34
+  },
+  {
     "title": "The House in the Cerulean Sea",
     "author": "TJ Klune",
     "cover": "./book_covers/cerulean.jpg",
-    "rating": 4
+    "rating": 4,
+    "progress": 100
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "author": "Diana Wynne Jones",
+    "cover": "./book_covers/howl.jpg",
+    "rating": 5,
+    "progress": 100
+  },
+  {
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "cover": "./book_covers/piranesi.jpg",
+    "rating": 5,
+    "progress": 100
   }
 ]
