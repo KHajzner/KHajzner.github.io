@@ -4,6 +4,7 @@ import {
   LinkedInIcon,
   GitHubIcon,
   BookIcon,
+  MusicIcon,
 } from "../static/icons";
 import "./Skeleton.scss";
 
@@ -13,6 +14,7 @@ const Socials = () => {
       <EnvelopeIcon />
       <LinkedInIcon />
       <GitHubIcon />
+      <MusicIcon />
     </div>
   );
 };
@@ -43,13 +45,13 @@ const ReadingChallange = () => {
             Kalina
           </a>{" "}
           has read 1 book toward their goal of 12 books.
-        </div>
-        <div id="div_1">
-          <div id="div_2">
-            <span id="div_3">hide</span>
+          <div id="div_1">
+            <div id="div_2">
+              <span id="div_3">hide</span>
+            </div>
           </div>
+          <div id="progress">1 of 12 (8%)</div>
         </div>
-        <div id="progress">1 of 12 (8%)</div>
       </div>
       <script src="https://www.goodreads.com/user_challenges/widget/161710093-kalina?challenge_id=11680&v=2"></script>
     </div>
@@ -61,14 +63,20 @@ const Skeleton = ({ children }: { children: any }) => {
     <div className="frame">
       <div className="sideNav">
         <div className="me">
-          <img id="avatar" src={require("../static/images/avatar.png")} alt="avatar" />
+          <img
+            id="avatar"
+            src={require("../static/images/avatar.png")}
+            alt="avatar"
+          />
           <h2 className="welcome">Kalina's Corner</h2>
           <Socials />
           <ReadingChallange />
         </div>
       </div>
       <div className="mainContent">
-        <div id="flex1" ><img src={require("../static/images/banner.gif")} id="banner" /></div>
+        <div id="flex1">
+          <img src={require("../static/images/banner.gif")} id="banner" />
+        </div>
         <nav id="flex2" className="navigation">
           <Link to="/">
             <button className="pixel-corners">HOME</button>

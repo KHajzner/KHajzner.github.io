@@ -12,7 +12,7 @@ const Library = () => {
             <img className="cover" height="250px" src={book.cover} />
             <p className="title">{book.title}</p>
             <p className="author">{book.author}</p>
-            {book.progress == 100 ? (
+            {book.progress === 100 ? (
               <div className="rating">
                 {Array(book.rating)
                   .fill(0)

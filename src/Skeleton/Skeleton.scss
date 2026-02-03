@@ -58,8 +58,8 @@
   object-fit: cover;
 }
 #avatar {
-  height: 28%;
-  margin: 20px;
+  width: 265px;
+  margin: 15px 15px 5px 15px;
   clip-path: polygon(
     0px calc(100% - 16px),
     4px calc(100% - 16px),
@@ -92,9 +92,10 @@
   );
 }
 .welcome {
-  margin: 0px auto 15px auto;
+  width: 265px;
+  margin: 5px auto;
+  font-size: 35px;
   background-color: #6e2727;
-  width: 90%;
   clip-path: polygon(
     0px calc(100% - 8px),
     4px calc(100% - 8px),
@@ -133,14 +134,16 @@
 
 .socials {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 265px;
 }
 
 .social {
   background-color: #ae2334;
   padding: 10px;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   clip-path: polygon(
     0px calc(100% - 12px),
     6px calc(100% - 12px),
@@ -246,12 +249,14 @@
   font-size: 10px;
   color: #3a0e0e;
   background-image: linear-gradient(#f9c22b, #f9c22b, #f9c22b, #ee7d319b);
+  scrollbar-color: #3a0e0e #ae2334;
+  scrollbar-width: 10px;
 }
 
 #gr_challenge_11680 {
-  margin: 10px 5px;
-  padding: 10px 8px;
-  max-width: 280px;
+  margin: 5px auto;
+  padding: 10px 0;
+  max-width: 265px;
   text-shadow: none;
   background-color: #6e2727;
   clip-path: polygon(
@@ -287,32 +292,33 @@
 }
 
 #gr_challenge_progress_body_11680 {
+  margin: 0 8px;
   font-size: 18px;
   line-height: 18px;
 }
 
 #challange_heading {
-  margin: 0 0 4px;
+  margin: 0 0 5px;
   font-weight: normal;
+  font-size: 25px;
   text-align: center;
   a {
     color: #ffcd45;
   }
   a:hover {
-    color: #ffcd45c4;
+    color: #ffcd4586;
   }
 }
 
 #challange_body {
-  font-family: text-pixel;
-  font-size: 15px;
-  margin-bottom: 4px;
+  font-family: body-pixel;
+  font-size: 20px;
   a {
     color: #ffcd45;
     text-decoration: none;
   }
   a:hover {
-    color: #ffcd45c4;
+    color: #ffcd4586;
   }
 }
 #heading_link {
@@ -330,9 +336,8 @@
 }
 
 #div_1 {
-  width: 100px;
-  margin: 4px 5px 5px 0;
-  float: left;
+  width: 60%;
+  margin: 5px auto;
   height: 8px;
   overflow: hidden;
   background-color: #fff;

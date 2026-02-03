@@ -67,6 +67,25 @@ export const BookIcon = () => {
     </svg>
   );
 };
+export const MusicIcon = () => {
+  return (
+    <a
+      className="social"
+      href="https://open.spotify.com/user/nygja7vmut6x61bit4ud8j4qc?si=baccfbc3d0fc4fd8"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg
+        fill="white"
+        id="headphones-solid"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <polygon points="23 9 23 20 22 20 22 22 21 22 21 23 18 23 18 22 17 22 17 13 18 13 18 12 21 12 21 14 22 14 22 10 21 10 21 8 20 8 20 7 19 7 19 6 18 6 18 5 17 5 17 4 15 4 15 3 9 3 9 4 7 4 7 5 6 5 6 6 5 6 5 7 4 7 4 8 3 8 3 10 2 10 2 14 3 14 3 12 6 12 6 13 7 13 7 22 6 22 6 23 3 23 3 22 2 22 2 20 1 20 1 9 2 9 2 7 3 7 3 6 4 6 4 5 5 5 5 4 6 4 6 3 8 3 8 2 16 2 16 3 18 3 18 4 19 4 19 5 20 5 20 6 21 6 21 7 22 7 22 9 23 9" />
+      </svg>
+    </a>
+  );
+};
 
 export const HeartIcon = () => {
   return (

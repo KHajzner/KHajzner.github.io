@@ -26,5 +26,12 @@
     "cover": "./book_covers/piranesi.jpg",
     "rating": 5,
     "progress": 100
+  },
+  {
+    "title": "The River Has Roots",
+    "author": "Amal El-Mohtar",
+    "cover": "./book_covers/roots.jpg",
+    "rating": 4,
+    "progress": 100
   }
 ]
