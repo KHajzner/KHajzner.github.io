@@ -7,7 +7,7 @@
 .book {
   display: flex;
   flex-direction: column;
-  height: 250px;
+  justify-content: space-between;
   width: 100%;
   margin: 5px;
 }
@@ -17,7 +17,7 @@
 }
 .title {
   font-size: 28px;
-  margin: 0 auto;
+  margin: 4px auto 0 auto;
   line-height: 0.8;
 }
 
