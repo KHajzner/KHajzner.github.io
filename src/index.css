@@ -1,17 +1,17 @@
 @font-face {
   font-family: pixel;
-  src: url(./static/Arcade.ttf);
+  src: url(./static/fonts/Arcade.ttf);
   font-weight: bolder;
 }
 @font-face {
   font-family: text-pixel;
-  src: url(./static/text_pixel.ttf);
+  src: url(./static/fonts/text_pixel.ttf);
   font-weight: bolder;
 }
 
 @font-face {
   font-family: body-pixel;
-  src: url(./static/MedodicaRegular.otf);
+  src: url(./static/fonts/MedodicaRegular.otf);
   font-weight: bolder;
 }
 

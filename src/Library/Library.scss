@@ -1,0 +1,58 @@
+.book {
+  display: grid;
+  width: 180px;
+  margin: 5px;
+}
+
+.title {
+  font-size: 28px;
+  margin: 0 auto;
+  line-height: 0.8;
+}
+
+.author {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.star {
+  width: 25px;
+}
+
+.rating {
+  display: flex;
+  margin: 0 auto;
+}
+
+.cover {
+  clip-path: polygon(
+    0px calc(100% - 16px),
+    4px calc(100% - 16px),
+    4px calc(100% - 8px),
+    8px calc(100% - 8px),
+    8px calc(100% - 4px),
+    16px calc(100% - 4px),
+    16px 100%,
+    calc(100% - 16px) 100%,
+    calc(100% - 16px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 16px),
+    100% calc(100% - 16px),
+    100% 16px,
+    calc(100% - 4px) 16px,
+    calc(100% - 4px) 8px,
+    calc(100% - 8px) 8px,
+    calc(100% - 8px) 4px,
+    calc(100% - 16px) 4px,
+    calc(100% - 16px) 0px,
+    16px 0px,
+    16px 4px,
+    8px 4px,
+    8px 8px,
+    4px 8px,
+    4px 16px,
+    0px 16px
+  );
+}

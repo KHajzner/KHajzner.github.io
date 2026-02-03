@@ -2,7 +2,12 @@ import "../Skeleton/Skeleton.scss";
 export const EnvelopeIcon = () => {
   return (
     <a className="social" href="mailto:khajzner@wp.pl">
-      <svg id="envelope" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <svg
+        fill="white"
+        id="envelope"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
         <path d="m21,5v-1H3v1H1v14h1v1h20v-1h1V5h-2Zm-11,7v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h14v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1Zm-6-5v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v11H3V7h1Z" />
       </svg>
     </a>
@@ -17,7 +22,12 @@ export const GitHubIcon = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <svg id="Github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <svg
+        fill="white"
+        id="Github"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
         <polygon points="23 9 23 15 22 15 22 17 21 17 21 19 20 19 20 20 19 20 19 21 18 21 18 22 16 22 16 23 15 23 15 18 14 18 14 17 15 17 15 16 17 16 17 15 18 15 18 14 19 14 19 9 18 9 18 6 16 6 16 7 15 7 15 8 14 8 14 7 10 7 10 8 9 8 9 7 8 7 8 6 6 6 6 9 5 9 5 14 6 14 6 15 7 15 7 16 9 16 9 18 7 18 7 17 6 17 6 16 4 16 4 17 5 17 5 19 6 19 6 20 9 20 9 23 8 23 8 22 6 22 6 21 5 21 5 20 4 20 4 19 3 19 3 17 2 17 2 15 1 15 1 9 2 9 2 7 3 7 3 5 4 5 4 4 5 4 5 3 7 3 7 2 9 2 9 1 15 1 15 2 17 2 17 3 19 3 19 4 20 4 20 5 21 5 21 7 22 7 22 9 23 9" />
       </svg>
     </a>
@@ -32,7 +42,12 @@ export const LinkedInIcon = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <svg id="linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <svg
+        fill="white"
+        id="linkedin"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
         <path d="m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-9,10v8h-3v-11h3v1h1v-1h4v1h1v10h-3v-8h-3Zm-9-4v-3h3v3h-3Zm3,1v11h-3v-11h3Z" />
       </svg>
     </a>
@@ -41,9 +56,44 @@ export const LinkedInIcon = () => {
 
 export const BookIcon = () => {
   return (
-    <svg id="book-heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <svg
+      fill="white"
+      id="book-heart"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
       <polygon points="18 6 18 9 17 9 17 10 16 10 16 11 15 11 15 12 14 12 14 13 13 13 13 14 12 14 12 13 11 13 11 12 10 12 10 11 9 11 9 10 8 10 8 9 7 9 7 6 8 6 8 5 11 5 11 6 12 6 12 7 13 7 13 6 14 6 14 5 17 5 17 6 18 6" />
       <path d="m20,17h1v-1h1V2h-1v-1H4v1h-1v1h-1v18h1v1h1v1h17v-1h1v-1h-1v-1h-1v-3Zm-2,4H5v-1h-1v-2h1v-1h13v4ZM4,3h16v12H4V3Z" />
     </svg>
+  );
+};
+
+export const StarIcon = () => {
+  return (
+    <div className="star">
+      <svg
+        fill="#3A0E0E"
+        id="star"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path d="m16,8v-2h-1v-2h-1v-2h-1v-1h-2v1h-1v2h-1v2h-1v2H1v2h1v1h1v1h1v1h1v1h1v5h-1v4h2v-1h2v-1h2v-1h2v1h2v1h2v1h2v-4h-1v-5h1v-1h1v-1h1v-1h1v-1h1v-2h-7Zm4,3h-1v1h-1v1h-1v1h-1v5h1v1h-2v-1h-2v-1h-2v1h-2v1h-2v-1h1v-5h-1v-1h-1v-1h-1v-1h-1v-1h4v-1h1v-1h1v-2h1v-2h2v2h1v2h1v1h1v1h4v1Z" />
+      </svg>
+    </div>
+  );
+};
+
+export const FilledStarIcon = () => {
+  return (
+    <div className="star">
+      <svg
+        fill="#3A0E0E"
+        id="star-solid"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <polygon points="23 8 23 10 22 10 22 11 21 11 21 12 20 12 20 13 19 13 19 14 18 14 18 19 19 19 19 23 17 23 17 22 15 22 15 21 13 21 13 20 11 20 11 21 9 21 9 22 7 22 7 23 5 23 5 19 6 19 6 14 5 14 5 13 4 13 4 12 3 12 3 11 2 11 2 10 1 10 1 8 8 8 8 6 9 6 9 4 10 4 10 2 11 2 11 1 13 1 13 2 14 2 14 4 15 4 15 6 16 6 16 8 23 8" />
+      </svg>
+    </div>
   );
 };

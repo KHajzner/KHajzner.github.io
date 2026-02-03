@@ -61,14 +61,14 @@ const Skeleton = ({ children }: { children: any }) => {
     <div className="frame">
       <div className="sideNav">
         <div className="me">
-          <img id="avatar" src={require("../static/avatar.png")} alt="avatar" />
+          <img id="avatar" src={require("../static/images/avatar.png")} alt="avatar" />
           <h2 className="welcome">Kalina's Corner</h2>
           <Socials />
           <ReadingChallange />
         </div>
       </div>
       <div className="mainContent">
-        <div id="flex1" ><img src={require("../static/banner.gif")} id="banner" /></div>
+        <div id="flex1" ><img src={require("../static/images/banner.gif")} id="banner" /></div>
         <nav id="flex2" className="navigation">
           <Link to="/">
             <button className="pixel-corners">HOME</button>
