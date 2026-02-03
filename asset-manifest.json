@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7abbad68.css",
-    "main.js": "/static/js/main.c9c9eacb.js",
+    "main.css": "/static/css/main.81cf9869.css",
+    "main.js": "/static/js/main.08a42a65.js",
     "static/media/banner.gif": "/static/media/banner.2806598e1b7c28ab04ca.gif",
     "static/media/text_pixel.ttf": "/static/media/text_pixel.10cf96d54dcd9af0486c.ttf",
     "static/media/MedodicaRegular.otf": "/static/media/MedodicaRegular.95749ec5a65afd44d159.otf",
     "static/media/avatar.png": "/static/media/avatar.db93c7e1978ac70abe64.png",
     "static/media/Arcade.ttf": "/static/media/Arcade.8f36b955d042951fd3af.ttf",
     "index.html": "/index.html",
-    "main.7abbad68.css.map": "/static/css/main.7abbad68.css.map",
-    "main.c9c9eacb.js.map": "/static/js/main.c9c9eacb.js.map"
+    "main.81cf9869.css.map": "/static/css/main.81cf9869.css.map",
+    "main.08a42a65.js.map": "/static/js/main.08a42a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abbad68.css",
-    "static/js/main.c9c9eacb.js"
+    "static/css/main.81cf9869.css",
+    "static/js/main.08a42a65.js"
   ]
 }
