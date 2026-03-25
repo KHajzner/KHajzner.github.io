@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODO:
+
+- Font support for Polish characters
+- "Backlog" tab - integrate Steam API
+- Add a photography gallery
+- Create first blog post
+- Write the "About Me" section
+- Better CSS for language toggle
+- Better CSS for body text
+
 ## Available Scripts
 
 In the project directory, you can run:
