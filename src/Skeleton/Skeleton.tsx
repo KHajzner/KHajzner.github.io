@@ -53,7 +53,7 @@ const ReadingChallange = () => {
               <span id="div_3">hide</span>
             </div>
           </div>
-          <div id="progress">1 of 12 (8%)</div>
+          <div id="progress">2 of 12 (8%)</div>
         </div>
       </div>
       <script src="https://www.goodreads.com/user_challenges/widget/161710093-kalina?challenge_id=11680&v=2"></script>
@@ -90,8 +90,8 @@ const Skeleton = ({ children }: { children: any }) => {
             <Link to="/projects">
               <button className="pixel-corners">{t("BLOG")}</button>
             </Link>
-            <Link to="/photography">
-              <button className="pixel-corners">{t("PHOTOGRAPHY")}</button>
+            <Link to="/walk">
+              <button className="pixel-corners">{t("MORDOR WALK")}</button>
             </Link>
             <Link to="/library">
               <button className="pixel-corners">{t("LIBRARY")}</button>

@@ -7,7 +7,7 @@ const Backlog = () => {
     <Skeleton>
       <div className="content">
         <div className="block">
-          <h1 className="header">Recently Played</h1>
+          <h1 className="header">Games I Adore</h1>
           {gameRec.map((game) => (
             <div className="book">
               <img className="cover" height="250px" src={game.cover} />
@@ -16,7 +16,7 @@ const Backlog = () => {
           ))}
         </div>
         <div className="block">
-          <h1 className="header">Games I Adore</h1>
+          <h1 className="header">Recently Played</h1>
           {gameRec.map((game) => (
             <div className="book">
               <img className="cover" height="250px" src={game.cover} />

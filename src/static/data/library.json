@@ -1,10 +1,17 @@
 [
   {
+    "title": "Yesteryear",
+    "author": "Caro Claire Burke",
+    "cover": "./book_covers/yesteryear.jpg",
+    "rating": 0,
+    "progress": 17
+  },
+  {
     "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
     "cover": "./book_covers/handmaid.jpg",
-    "rating": 0,
-    "progress": 34
+    "rating": 5,
+    "progress": 100
   },
   {
     "title": "The House in the Cerulean Sea",
