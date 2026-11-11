@@ -9,7 +9,12 @@ const Library = () => {
       <div className="content">
         {library.map((book) => (
           <div className="book" key={book.author}>
-            <img className="cover" height="250px" src={book.cover} />
+            <img
+              className="cover"
+              height="250px"
+              src={book.cover}
+              alt={`cover of ${book.title}`}
+            />
             <p className="title">{book.title}</p>
             <p className="author">{book.author}</p>
             {book.progress === 100 ? (

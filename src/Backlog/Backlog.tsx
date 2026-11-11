@@ -10,7 +10,12 @@ const Backlog = () => {
           <h1 className="header">Games I Adore</h1>
           {gameRec.map((game) => (
             <div className="book">
-              <img className="cover" height="250px" src={game.cover} />
+              <img
+                className="cover"
+                height="250px"
+                src={game.cover}
+                alt={`cover of ${game.title}`}
+              />
               <p className="title">{game.title}</p>
             </div>
           ))}
@@ -19,7 +24,12 @@ const Backlog = () => {
           <h1 className="header">Recently Played</h1>
           {gameRec.map((game) => (
             <div className="book">
-              <img className="cover" height="250px" src={game.cover} />
+              <img
+                className="cover"
+                height="250px"
+                src={game.cover}
+                alt={`cover of ${game.title}`}
+              />
               <p className="title">{game.title}</p>
             </div>
           ))}
