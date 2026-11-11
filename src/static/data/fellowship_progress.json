@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Kalina",
+    "icon": "./fellowship_icons/kalina.jpg",
+    "progress": 0
+  },
+  {
+    "name": "Lynne",
+    "icon": "./book_covers/howl.jpg",
+    "progress": 1779
+  }
+]

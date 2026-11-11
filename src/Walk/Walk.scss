@@ -1,0 +1,90 @@
+.empty {
+  height: 90px;
+  padding: 2px;
+}
+
+.progress {
+  min-width: 180px;
+  width: var(--progress);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.infoBox {
+  font-size: 20px;
+  padding: 2px;
+  background-color: #6e2727;
+  color: white;
+  position: relative;
+  width: 180px;
+  height: 90px;
+
+  h3 {
+    margin: 5px;
+  }
+  clip-path: polygon(
+    0px calc(100% - 8px),
+    4px calc(100% - 8px),
+    4px calc(100% - 4px),
+    8px calc(100% - 4px),
+    8px 100%,
+    calc(100% - 8px) 100%,
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 8px),
+    100% calc(100% - 8px),
+    100% 8px,
+    calc(100% - 4px) 8px,
+    calc(100% - 4px) 4px,
+    calc(100% - 8px) 4px,
+    calc(100% - 8px) 0px,
+    8px 0px,
+    8px 4px,
+    4px 4px,
+    4px 8px,
+    0px 8px
+  );
+}
+
+.slidecontainer {
+  width: 90%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.walk {
+  width: 100%;
+  height: 50px;
+  background: none;
+  outline: none;
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+}
+
+.walk::-webkit-slider-thumb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: var(--icon-img);
+  border: none;
+  -webkit-appearance: none;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  appearance: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.walk::-moz-range-thumb {
+  border: none;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-image: var(--icon-img);
+  pointer-events: auto;
+  cursor: pointer;
+}
