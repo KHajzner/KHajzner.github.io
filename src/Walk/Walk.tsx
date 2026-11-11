@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Skeleton from "../Skeleton/Skeleton";
 import "./Walk.scss";
 import progress from "../static/data/fellowship_progress.json";
+import waypoints from "../static/data/waypoints.json";
 
 const Walk = () => {
   const [popUp, setPopup] = useState<any>(null);
@@ -14,17 +15,16 @@ const Walk = () => {
   return (
     <Skeleton>
       {!!popUp ? (
-        <div className="progress"             style={
-              {
-                "--progress":  `${(popUp.progress / 1779) * 100}%`,
-              } as React.CSSProperties
-            }>
-          <div
-            className="infoBox"
-          >
-            <h3>Information Box</h3>
-            Name: {popUp?.name} <br />
-            Walked: {popUp.progress} miles
+        <div
+          className="progress"
+          style={
+            {
+              "--progress": `${Math.min(Math.max((popUp.progress / 1779) * 100 - 5, 0), 90)}%`,
+            } as React.CSSProperties
+          }
+        >
+          <div className="infoBox">
+            {popUp?.name} : {popUp.progress} miles
           </div>
         </div>
       ) : (
@@ -47,7 +47,25 @@ const Walk = () => {
             onClick={() => onClick(fellowship_member)}
           />
         ))}
-        <div className="path"></div>
+      </div>
+      <div className="path" />
+      <div className="waypoints">
+        {waypoints.map((waypoint) => (
+          <>
+            <p
+              className="waypoint"
+              style={
+                {
+                  "--distance": `${(waypoint.mile / 1779) * 100 - 1}%`,
+                } as React.CSSProperties
+              }
+            >
+              {waypoint.name}
+              {" - "} {waypoint.mile} miles
+              <div className="waypointdot" />
+            </p>
+          </>
+        ))}
       </div>
     </Skeleton>
   );

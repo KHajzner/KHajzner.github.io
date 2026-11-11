@@ -47,13 +47,13 @@ const ReadingChallange = () => {
           >
             Kalina
           </a>{" "}
-          {t("has read 1 book toward their goal of 12 books.")}
+          {t("has read 2 book toward their goal of 12 books.")}
           <div id="div_1">
             <div id="div_2">
               <span id="div_3">hide</span>
             </div>
           </div>
-          <div id="progress">2 of 12 (8%)</div>
+          <div id="progress">2 of 12 (16%)</div>
         </div>
       </div>
       <script src="https://www.goodreads.com/user_challenges/widget/161710093-kalina?challenge_id=11680&v=2"></script>
@@ -91,7 +91,7 @@ const Skeleton = ({ children }: { children: any }) => {
               <button className="pixel-corners">{t("BLOG")}</button>
             </Link>
             <Link to="/walk">
-              <button className="pixel-corners">{t("MORDOR WALK")}</button>
+              <button className="pixel-corners">{t("WALK TO MORDOR")}</button>
             </Link>
             <Link to="/library">
               <button className="pixel-corners">{t("LIBRARY")}</button>

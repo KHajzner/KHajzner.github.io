@@ -7,10 +7,17 @@
     "progress": 17
   },
   {
+    "title": "Project Hail Mary",
+    "author": "Andy Weird",
+    "cover": "./book_covers/phm.jpg",
+    "rating": 5,
+    "progress": 100
+  },
+  {
     "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
     "cover": "./book_covers/handmaid.jpg",
-    "rating": 5,
+    "rating": 4,
     "progress": 100
   },
   {

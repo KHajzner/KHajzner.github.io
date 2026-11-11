@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Hobbiton",
+    "mile": 0
+  },
+  {
+    "name": "Bree",
+    "mile": 135
+  },
+  {
+    "name": "Weathertop",
+    "mile": 240
+  },
+  {
+    "name": "Rivendell",
+    "mile": 458
+  },
+  {
+    "name": "Moria",
+    "mile": 798
+  },
+  {
+    "name": "Lothlorien",
+    "mile": 920
+  },
+  {
+    "name": "Argonath",
+    "mile": 1309
+  },
+  {
+    "name": "Dead Marshes",
+    "mile": 1433
+  },
+  {
+    "name": "Black Gate",
+    "mile": 1474
+  },
+  {
+    "name": "Cirith Ungol",
+    "mile": 1634
+  },
+  {
+    "name": "Mount Doom",
+    "mile": 1779
+  }
+]
