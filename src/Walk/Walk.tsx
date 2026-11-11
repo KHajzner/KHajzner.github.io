@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 import Skeleton from "../Skeleton/Skeleton";
 import "./Walk.scss";
 import progress from "../static/data/fellowship_progress.json";
 import waypoints from "../static/data/waypoints.json";
 
 const Walk = () => {
+  const { t } = useTranslation();
   const [popUp, setPopup] = useState<any>(null);
 
   const onClick = (fellowship_member: any) => {
@@ -24,7 +27,7 @@ const Walk = () => {
           }
         >
           <div className="infoBox">
-            {popUp?.name} : {popUp.progress} miles
+            {popUp?.name} : {popUp.progress} {t("miles")}
           </div>
         </div>
       ) : (
@@ -61,7 +64,7 @@ const Walk = () => {
               }
             >
               {waypoint.name}
-              {" - "} {waypoint.mile} miles
+              {" - "} {waypoint.mile} {t("miles")}
               <div className="waypointdot" />
             </p>
           </>
