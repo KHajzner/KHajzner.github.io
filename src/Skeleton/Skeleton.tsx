@@ -81,7 +81,11 @@ const Skeleton = ({ children }: { children: any }) => {
         </div>
         <div className="mainContent">
           <div id="flex1">
-            <img src={require("../static/images/banner.gif")} id="banner" />
+            <img
+              src={require("../static/images/banner.gif")}
+              id="banner"
+              alt="sunflower banner"
+            />
           </div>
           <nav id="flex2" className="navigation">
             <Link to="/">

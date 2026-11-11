@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Skeleton from "../Skeleton/Skeleton";
 import "./Walk.scss";
 import progress from "../static/data/fellowship_progress.json";
