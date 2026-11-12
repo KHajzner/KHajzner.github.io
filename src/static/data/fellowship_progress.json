@@ -1,22 +1,22 @@
 [
   {
     "name": "Kalina",
-    "icon": "./fellowship_icons/kalina.jpg",
+    "icon": "/fellowship_icons/kalina.jpg",
     "progress": 1004
   },
   {
     "name": "Lynne",
-    "icon": "./fellowship_icons/lynne.jpg",
+    "icon": "/fellowship_icons/lynne.jpg",
     "progress": 1779
   },
   {
     "name": "Fergus",
-    "icon": "./fellowship_icons/fergus.jpg",
+    "icon": "/fellowship_icons/fergus.jpg",
     "progress": 0
   },
   {
     "name": "Nevin",
-    "icon": "./fellowship_icons/nevin.jpg",
+    "icon": "/fellowship_icons/nevin.jpg",
     "progress": 1234
   }
 ]
