@@ -7,16 +7,31 @@
   {
     "name": "Lynne",
     "icon": "/fellowship_icons/lynne.jpg",
-    "progress": 1779
+    "progress": 1204
   },
   {
     "name": "Fergus",
     "icon": "/fellowship_icons/fergus.jpg",
-    "progress": 0
+    "progress": 505
   },
   {
     "name": "Nevin",
     "icon": "/fellowship_icons/nevin.jpg",
-    "progress": 1234
+    "progress": 200
+  },
+  {
+    "name": "Eloise",
+    "icon": "/fellowship_icons/eloise.jpg",
+    "progress": 0
+  },
+  {
+    "name": "Jack",
+    "icon": "/fellowship_icons/jack.jpg",
+    "progress": 1077
+  },
+  {
+    "name": "Charisse",
+    "icon": "/fellowship_icons/charisse.jpg",
+    "progress": 100
   }
 ]
